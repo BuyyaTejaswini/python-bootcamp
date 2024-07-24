@@ -1,0 +1,11 @@
+#prime or not
+a=int(input())
+r=a**0.5        #square root of number
+count=0
+for i in range(2, int(+1)):     #integer value of square+1 value
+    if a%i==1:
+        break
+if count==0:
+    print("prime")
+else:
+    print("not prime")

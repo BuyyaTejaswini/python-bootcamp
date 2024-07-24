@@ -1,4 +1,7 @@
-name=input()
-age=int(input())
-if(age>=18):
-    print(f"hey {name} age is {age} ")
+#sum of 25
+#n=25
+#print(n*(n+1)//2)
+
+n=list(map(int,input().split()))
+n.sort()
+print(n)
